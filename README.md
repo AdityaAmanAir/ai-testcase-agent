@@ -1,4 +1,4 @@
-# 🧪 AI Test Case Generator 
+# AI Test Case Generator 
 Automatically generate high-quality **software test cases** from SRS documents using
 Google **Gemini 2.5 Flash** + a modular **multi-agent** pipeline.
 
@@ -12,9 +12,9 @@ Supports:
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✅ Multi-Agent Architecture
+### Multi-Agent Architecture
 This project uses a chain-of-thought / multi-agent system:
 1. **Requirement Understanding Agent** – extracts actors, flows, constraints  
 2. **Scenario Discovery Agent** – identifies positive, negative, edge-case scenarios  
@@ -22,11 +22,11 @@ This project uses a chain-of-thought / multi-agent system:
 4. **Quality Agent** – improves validations, adds missing checks  
 5. **Output Composer** – finalizes unified output
 
-### ✅ Input
+### Input
 - PDF SRS documents (multi-page)
 - Text requirements
 
-### ✅ Output
+### Output
 - Structured JSON  
 - Exported **Excel** file (`.xlsx`)  
 - Valid test cases with:  
@@ -36,10 +36,3 @@ This project uses a chain-of-thought / multi-agent system:
   - Steps  
   - ExpectedResult  
   - Priority  
-
-### ✅ API Endpoint
-Upload SRS → Download Excel automatically.
-
-### ✅ Local Runner
-Run the whole pipeline from your machine without API.
-
